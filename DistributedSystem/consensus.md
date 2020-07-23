@@ -149,18 +149,7 @@ In this paper, we show the surprising result that no completely asynchronous con
         2:for each t中的输入(h,i) do
         3:  if 输出(h,i)不在本地UTXO or 签名无效 then
 
- # 😊共识算法
-
-所谓区块链共识过程，是指如何将全网交易数据客观记录并且不可篡改的过程。目前, 比特币使用工作量证明PoW（Proof of Work），以太坊即将转换为权益证明PoS（Proof of Stake），柚子(EOS)使用授权权益证明DPoS（Delegated Proof of Stake). __以上这些算法可以称之为“经济学”的算法，所谓经济学的算法，是指让作弊成本可计算，且让作弊成本往往远大于作弊带来的收益，即作弊无利可图，通过这种思想构造一个用于节点之间博弈的算法，并使之趋向一个稳定的平衡。__
-
-计算机领域的分布式一致性算法，例如Paxos、Raft，也称之为传统分布式一致性算法。他们之间的最大区别是：系统在拜占庭将军（Byzantine Generals Problem）情景下的可靠性，即拜占庭容错（PBFT算法支持拜占庭容错）。然而无论是Paxos还是Raft算法，理论上都可能会进入无法表决通过的死循环(尽管这个概率其实是非常非常低的)，但是他们都是满足safety的，只是放松了liveness的要求, PBFT也是这样。
-
-
-
-
-
-
-
+ 
 
 
 
