@@ -150,6 +150,12 @@ In this paper, we show the surprising result that no completely asynchronous con
         3:  if 输出(h,i)不在本地UTXO or 签名无效 then
 
  
+## 共识算法
+
+ 共识算法可以指代用于解决计算机科学领域中的共识问题的几种提议的协议之一，该协议用于达成分布式过程或系统之间的单个数据值或分布式系统的当前状态的一致性。共识算法主要用于在包含多个包含相同信息的分布式节点的网络中实现可靠性。
+
+其他共识算法
+工作量证明和权益证明是讨论最多的共识算法。
 
 
 
